@@ -21,19 +21,13 @@ class MovieViewModel{
             self.bindErrorViewModelToView()
         }
     }
-    
-    
     var bindMovieViewModelToView : (()->()) = {}
     var bindErrorViewModelToView : (()->()) = {}
-    
     
     init(){
         self.movieServices = MovieServices()
         self.fetchMovieDataFromAPI()
     }
-    
-    
-    
     
     func fetchMovieDataFromAPI(){
         movieServices.fetchMovieData(completion: {(movieData,error) in

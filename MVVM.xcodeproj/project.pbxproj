@@ -75,6 +75,7 @@
 		3E7D937828271BF5008F4B84 /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				3ECD2F622827B50400357098 /* Network */,
 				3ECD2F5D2827B49700357098 /* Constant */,
 				3ECD2F5C2827B48E00357098 /* Model */,
 				3ECD2F5B2827B48200357098 /* ViewModel */,
@@ -110,8 +111,7 @@
 		3ECD2F5C2827B48E00357098 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				3ECD2F632827B51500357098 /* Data */,
-				3ECD2F622827B50400357098 /* Network */,
+				3ECD2F642827B53100357098 /* Movie.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -130,14 +130,6 @@
 				3ECD2F662827B55D00357098 /* NetworkService.swift */,
 			);
 			path = Network;
-			sourceTree = "<group>";
-		};
-		3ECD2F632827B51500357098 /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				3ECD2F642827B53100357098 /* Movie.swift */,
-			);
-			path = Data;
 			sourceTree = "<group>";
 		};
 		4CE0FAB5127419B3421A3331 /* Pods */ = {
